@@ -39,6 +39,7 @@ const Home = () => {
                   initial={{ opacity: 0, y:30 }}
                   animate={{opacity: 1, y: 50, }}
                   transition={{ duration:0.5, delay: 0.5 }}
+                  className="m-auto"
                   >
                   Aspiring Web Developer and i have a  <br /> 
                   strong desire to improve my skills and thrive on challenges <br />
