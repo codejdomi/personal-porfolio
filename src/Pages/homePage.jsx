@@ -34,7 +34,7 @@ const Home = () => {
                 className="lg:text-4xl xs:text-xl leading-normal">
                   BS-IT Student
               </motion.h1>
-                <div className="lg:p-4 xs:p-2 xs:text-xs xs:font-normal leading-normal">
+                <div className="lg:p-4 xs:p-2 xs:text-xs lg:font-semibold xs:font-normal leading-normal">
                   <motion.p
                   initial={{ opacity: 0, y:30 }}
                   animate={{opacity: 1, y: 50, }}

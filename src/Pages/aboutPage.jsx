@@ -17,7 +17,7 @@ const About = () => {
 
   const events = [
     {
-      year: '2021 - 2024',
+      year: '2021 - Present',
       title: '4th year BS-IT',
       description: `Current 4th year in ICCT colleges and pursuing a bachelor of science in information technology (BS-IT)`,
     },
