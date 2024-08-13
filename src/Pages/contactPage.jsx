@@ -38,7 +38,7 @@ const Contact = () => {
                   transition={{ duration: 0.8, delay: 0.5 }} 
                   onSubmit={onSubmit} 
                   className="lg:w-2/5 sm:w-9/12 md:w-2/5 xs:w-11/12 p-4 bg-gray-300 dark:bg-gray-700 rounded-lg shadow-md dark:shadow-gray-200 shadow-gray-700 m-4 flex flex-col -3 absolute xs:bottom-12 sm:bottom-12 md:bottom-12 lg:bottom-36 ">
-                  <h1 className="lg:text-2xl p-2 text-center font-bold">CONTACT FORM</h1>
+                  <h1 className="lg:text-2xl p-2 text-center font-bold">CONTACT</h1>
                   <div className="flex flex-row items-center">
                       <label className="lg:text-lg p-2">Name</label>
                       <input className="lg:p-2 xs:p-1 rounded-lg lg:w-3/5 xs:w-3/4" type="text" name="name" placeholder="Enter your name" required />
