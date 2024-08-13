@@ -96,14 +96,14 @@ const About = () => {
                             Technology Skills
                           </h1>
                           <div 
-                            className="p-2 list-none flex flex-row flex-wrap lg:gap-4 xs:gap-2"
+                            className="p-2 list-none flex flex-wrap lg:gap-4 xs:gap-2 m-auto"
                           >
                           <div 
                             className="text-center xs:text-xs"
                           >
                             <li>
                                <img 
-                                  className="lg:w-20 xs:w-16 p-2"
+                                  className="lg:w-20 xs:w-16 p-1"
                                   src={html} 
                                   alt="logo" 
                                 />
@@ -113,7 +113,7 @@ const About = () => {
                             </p>
                           </div>
                              <div 
-                                className="text-center xs:text-xs"
+                                className="text-center xs:text-xs "
                              >
                               <li>
                                  <img 
@@ -122,7 +122,7 @@ const About = () => {
                                    alt="css" 
                                  />
                               </li>
-                            <p>
+                            <p className="p-1">
                               Css
                             </p>
                           </div>
@@ -143,12 +143,12 @@ const About = () => {
                             >
                               <li>
                                 <img 
-                                  className="lg:w-20 p-2"
+                                  className="lg:w-20 p-3"
                                   src={react} 
                                   alt="react" 
                                 />
                               </li>
-                            <p>React JS</p>
+                            <p className="p-1">React JS</p>
                           </div>
                             <div 
                               className="text-center xs:text-xs"
@@ -167,7 +167,7 @@ const About = () => {
                             >
                               <li>
                                 <img 
-                                  className="lg:w-28 xs:w-16 p-2"
+                                  className="lg:w-28 xs:w-20 p-2"
                                   src={nodeexpress} 
                                   alt="nodeexpress" 
                                 />
@@ -203,7 +203,7 @@ const About = () => {
                             >
                               <li>
                                 <img 
-                                  className="lg:w-20 p-2 xs:w-16 rounded-full"
+                                  className="lg:w-20 p-2 xs:w-16 rounded-2xl"
                                   src={framer} 
                                   alt="framer" 
                                 />
@@ -215,7 +215,7 @@ const About = () => {
                             >
                               <li>
                                 <img 
-                                  className="lg:w-20 p-2 xs:w-16 rounded-full"
+                                  className="lg:w-20 p-2 xs:w-16 rounded-2xl"
                                   src={monggo} 
                                   alt="monggo" 
                                 />

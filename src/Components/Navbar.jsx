@@ -21,7 +21,7 @@ const Navbar = () => {
     <div>
         <div className="w-full flex justify-between lg:p-6 xs:p-4 fixed z-10 bg-whiteez dark:bg-blckgray">
             <div className="relative xs:left-8 lg:left-52 p-6 abs">
-                <Link to="/Home"><h2 className="font-poppins lg:text-3xl sm:text-xl font-bold ">JFD</h2></Link> 
+                <Link to="/Home"><h2 className="font-poppins lg:text-3xl sm:text-2xl xs:text-2xl font-bold ">JFD</h2></Link> 
             </div>
             <div className="flex items-center relative xs:right-3">
                  <button onClick={togglebtn} className='p-2 text-blckgray dark:text-whitetext transition-all duration-200 rounded-md lg:hidden'>
