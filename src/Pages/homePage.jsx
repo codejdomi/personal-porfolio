@@ -17,21 +17,21 @@ const Home = () => {
                 initial={{ opacity: 0, y:30 }}
                 animate={{opacity: 1, y: 50, }}
                 transition={{ duration: 0.5, delay: 0.3 }}
-                className="lg:text-4xl xs:text-2xl leading-normal">
+                className="lg:text-4xl xs:text-xl leading-normal">
                   Hi, I'm
               </motion.h2>
               <motion.h1 
                 initial={{ opacity: 0, y:30 }}
                 animate={{opacity: 1, y: 50, }}
                 transition={{ duration:0.5, delay: 0.5 }}
-                className="lg:text-5xl xs:text-3xl leading-normal">
+                className="lg:text-5xl xs:text-2xl leading-normal">
                   Jhon Francis Dela Torre
               </motion.h1>
               <motion.h1 
                 initial={{ opacity: 0, y:30 }}
                 animate={{opacity: 1, y: 50, }}
                 transition={{ duration:0.5, delay: 0.5 }}
-                className="lg:text-4xl xs:text-2xl leading-normal">
+                className="lg:text-4xl xs:text-xl leading-normal">
                   BS-IT Student
               </motion.h1>
                 <div className="lg:p-4 xs:p-2 xs:text-xs leading-normal">
